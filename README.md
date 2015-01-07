@@ -1,5 +1,5 @@
 # youkeepmeup
-Pings websites. 
+Pings websites. A running version is on Heroku: `youkeepmeup`.
 
 # Deploying
 It's recommended to deploy this application to an Heroku app configured with [Null Buildpack](https://github.com/ryandotsmith/null-buildpack):
