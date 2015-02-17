@@ -9,13 +9,19 @@ $ heroku create --buildpack https://github.com/ryandotsmith/null-buildpack.git
 $ git push heroku master
 ```
 
-Then, provision the scheduler:
+Provision the scheduler add-on:
 
 ```bash
 $ heroku addons:create scheduler
 ```
 
-And configure it to run:
+Then, open the scheduler dashboard to add a new job:
+
+```bash
+$ heroku addons:open scheduler
+```
+
+And configure it to run as frequent as you'd like:
 
 ```bash
 $ bash keepalive
