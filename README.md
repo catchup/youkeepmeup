@@ -21,7 +21,7 @@ Then, open the scheduler dashboard to add a new job:
 $ heroku addons:open scheduler
 ```
 
-And configure it to run as frequent as you'd like:
+And configure it to run as frequent as you'd like with the following command:
 
 ```bash
 $ bash keepalive
